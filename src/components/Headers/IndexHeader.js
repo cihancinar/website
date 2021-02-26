@@ -39,8 +39,8 @@ function IndexHeader() {
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1>Hello, world.</h1>
-              <h1 className="presentation-title">I'm Cihan Cinar.</h1>
+              <h1>Hello, world!</h1>
+              <h1 className="presentation-title">I'm Cihan Cinar</h1>
               <div className="fog-low">
                 <img alt="..." src={require("assets/img/fog-low.png")} />
               </div>
@@ -48,7 +48,7 @@ function IndexHeader() {
                 <img alt="..." src={require("assets/img/fog-low.png")} />
               </div>
             </div>
-            <h2 className="presentation-subtitle text-center">
+            <h2 className="presentation-subtitle text-center font-weight-bold">
               | Senior Software Engineer |
             </h2>
           </Container>
