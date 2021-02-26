@@ -40,7 +40,7 @@ function IndexFooter() {
             </ul>
           </nav> */}
           <div className="credits ml-auto">
-            <span className="copyright">
+            <span className="copyright text-dark">
               © {new Date().getFullYear()}, made with{" "}
               <i className="fa fa-heart heart" /> by Cihan Cinar
             </span>
