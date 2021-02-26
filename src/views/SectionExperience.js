@@ -31,7 +31,7 @@ function SectionExperience() {
       <div className="section" id="experience" style={{ background: '#ebebeb' }}>
         <Container>
           <div className="title">
-            <h2>Experience</h2>
+            <h2>History</h2>
           </div>
           <Row>
             <div id="resume" className="resume-timeline">

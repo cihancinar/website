@@ -131,7 +131,7 @@ function IndexNavbar() {
                 onClick={() => scrollTo('about')}
                 style= {{ cursor: 'pointer' }}
               >
-                <i className="nc-icon nc-badge" /> About
+                <i className="nc-icon nc-badge" /> About Me
               </NavLink>
             </NavItem>
             <NavItem>
@@ -139,7 +139,7 @@ function IndexNavbar() {
                 onClick={() => scrollTo('experience')}
                 style= {{ cursor: 'pointer' }}
               >
-                <i className="nc-icon nc-briefcase-24" /> Experience
+                <i className="nc-icon nc-briefcase-24" /> History
               </NavLink>
             </NavItem>
             <NavItem>

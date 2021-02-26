@@ -33,7 +33,7 @@ function SectionSkill() {
         <Container>
           <Col md="6">
             <div className="title">
-              <h2>Skill</h2>
+              <h2>Skills</h2>
               <h3>Software dev</h3>
             </div>
             <Row>
@@ -48,7 +48,7 @@ function SectionSkill() {
             />
             <Row>
               <Col md="4">Kotlin</Col>
-              <Col md="4" className="text-center">1 ans</Col>
+              <Col md="4" className="text-center">1 an</Col>
               <Col md="4" className="text-right">60%</Col>
             </Row>
             <Progress
