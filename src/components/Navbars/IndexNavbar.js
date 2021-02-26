@@ -78,8 +78,8 @@ function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
           <NavbarBrand
+            onClick={() => scrollTo('header')}
             data-placement="bottom"
-            href="/index"
             title="Cihan Cinar"
           >
             Home

@@ -69,7 +69,6 @@ function TermsNavbar() {
           <NavbarBrand
             data-placement="bottom"
             to="/index"
-            target="_blank"
             title="Cihan Cinar"
             tag={Link}
           >

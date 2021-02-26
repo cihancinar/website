@@ -33,6 +33,7 @@ function IndexHeader() {
           backgroundImage:
             "url(" + require("assets/img/antoine-barres.jpg") + ")",
         }}
+        id="header"
       >
         <div className="filter" />
         <div className="content-center">
