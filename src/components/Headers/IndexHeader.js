@@ -25,13 +25,14 @@ import { Container } from "reactstrap";
 // core components
 
 function IndexHeader() {
+  const randBackgroundImage = "top" + Math.round(Math.random()) + ".jpg";
   return (
     <>
       <div
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/antoine-barres.jpg") + ")",
+            "url(" + require("assets/img/" + randBackgroundImage) + ")",
         }}
         id="header"
       >
