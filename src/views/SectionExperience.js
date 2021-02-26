@@ -34,7 +34,7 @@ function SectionExperience() {
             <h2>History</h2>
           </div>
           <Row>
-            <div id="resume" className="resume-timeline">
+            <div className="resume-timeline">
               <Col md="12">
               <div className="resume-header">
                 <h2><strong>Professional</strong></h2>
@@ -174,7 +174,7 @@ function SectionExperience() {
           </Row>
 
           <Row>
-            <div id="resume" className="resume-timeline">
+            <div className="resume-timeline">
               <Col md="12">
                 <div className="resume-header">
                   <h2><strong>Educational</strong></h2>
