@@ -20,18 +20,7 @@ import React from "react";
 
 // reactstrap components
 import {
-  Button,
-  Label,
-  FormGroup,
-  Input,
-  NavItem,
-  NavLink,
-  Nav,
-  TabContent,
-  TabPane,
-  Container,
-  Row,
-  Col,
+  Container
 } from "reactstrap";
 
 // core components
@@ -40,13 +29,13 @@ import TermsHeader from "components/Headers/TermsHeader.js";
 import IndexFooter from "components/Footers/IndexFooter.js";
 
 function TermsPage() {
-  const [activeTab, setActiveTab] = React.useState("1");
+  // const [activeTab, setActiveTab] = React.useState("1");
 
-  const toggle = (tab) => {
-    if (activeTab !== tab) {
-      setActiveTab(tab);
-    }
-  };
+  // const toggle = (tab) => {
+  //   if (activeTab !== tab) {
+  //     setActiveTab(tab);
+  //   }
+  // };
 
   document.documentElement.classList.remove("nav-open");
   React.useEffect(() => {

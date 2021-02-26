@@ -20,7 +20,7 @@ import React from "react";
 // nodejs library that concatenates strings
 import classnames from "classnames";
 // reactstrap components
-import { animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
+import { animateScroll as scroller } from 'react-scroll'
 
 import {
   Button,
