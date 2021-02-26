@@ -42,30 +42,52 @@ function SectionContact() {
           </div>
             <CardDeck className="text-center">
                 <Card>
-                  <CardBody>
-                    <CardTitle tag="h5">
-                      <Telephone color="black" size={100} />
-                    </CardTitle>
-                    <CardText>Phone</CardText>
-                    <CardText>
-                      <a href="tel:+3343279640">
-                        +33 6 43 27 96 40
-                      </a>
-                    </CardText>
-                  </CardBody>
+                  <a href="tel:+3343279640">
+                    <CardBody>
+                      <CardTitle 
+                        tag="h5"
+                        style={{ marginBottom: '5px', marginTop: '25px' }}
+                        >
+                        <Telephone color="black" size={100} />
+                      </CardTitle>
+                      <CardText>
+                          +33 6 43 27 96 40
+                      </CardText>
+                    </CardBody>
+                  </a>
                 </Card>
                 <Card>
-                  <CardBody>
-                    <CardTitle tag="h5">
-                      <Envelope color="black" size={100} />
-                    </CardTitle>
-                    <CardText>Email</CardText>
-                    <CardText>
-                      <a href="mailto:cihancnr@gmail.com">
-                        cihancnr@gmail.com
-                      </a>
-                    </CardText>
-                  </CardBody>
+                  <a href="mailto:cihancnr@gmail.com">
+                    <CardBody>
+                      <CardTitle 
+                      tag="h5"
+                      style={{ marginBottom: '5px', marginTop: '25px' }}
+                      >
+                        <Envelope color="black" size={100} />
+                      </CardTitle>
+                      <CardText>
+                          cihancnr@gmail.com
+                      </CardText>
+                    </CardBody>
+                  </a>
+                </Card>
+                <Card>
+                  <a 
+                    href={Pdf}
+                    without 
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    >
+                    <CardBody>
+                      <CardTitle 
+                      tag="h5"
+                      style={{ marginBottom: '5px', marginTop: '25px' }}
+                      >
+                        <CloudArrowDown color="black" size={100} />
+                      </CardTitle>
+                      <CardText>Resume (PDF)</CardText>
+                    </CardBody>
+                  </a>
                 </Card>
                 <Card>
                   <div className="card-vcard">
@@ -78,22 +100,6 @@ function SectionContact() {
                   </div>
                   <CardBody>
                     <CardText tag="h5">VCard</CardText>
-                  </CardBody>
-                </Card>
-                <Card>
-                  <CardBody>
-                    <CardTitle tag="h5">
-                      <a 
-                      href={Pdf}
-                      without 
-                      rel="noopener noreferrer"
-                      target="_blank"
-                      >
-                      <CloudArrowDown color="black" size={100} />
-                      </a>
-                    </CardTitle>
-                    <CardText>Resume</CardText>
-                    <CardText></CardText>
                   </CardBody>
                 </Card>
             </CardDeck>
