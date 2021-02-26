@@ -33,7 +33,7 @@ function SectionAbout() {
       <div className="section section-buttons" id="about">
         <Container>
           <Row>
-            <Col md="8">
+            <Col md="12">
               <div className="title">
                 <h2>About me</h2>
                 <h3>Cihan Cinar</h3>
@@ -46,13 +46,6 @@ function SectionAbout() {
                 implement new approaches that I think are promising. I also participate as one day a week at LABS on
                 experimentation of new technologies.  
               </p>
-            </Col>
-            <Col md="4" className="text-center">
-              <img
-                alt="Cihan Cinar"
-                className="img-rounded img-responsive"
-                src={require("assets/img/avatar.png")}
-              />
             </Col>
           </Row>
         </Container>
