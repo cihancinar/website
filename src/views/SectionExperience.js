@@ -18,6 +18,8 @@
 */
 import React from "react";
 
+import { GeoAlt } from 'react-bootstrap-icons';
+
 // reactstrap components
 import {
   Container,
@@ -48,7 +50,8 @@ function SectionExperience() {
                     <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.PNG")} />
                     <div className="timeline-header">
                       <h4><strong>Architect</strong></h4>
-                      <p>06/2020 - Present</p>
+                      <p>06/2020 - <u>Present</u></p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
                       <h4><strong>equensWorldline</strong></h4>
@@ -66,6 +69,7 @@ function SectionExperience() {
                     <div className="timeline-header">
                       <h4><strong>Architect / Technical Lead</strong></h4>
                       <p>09/2019 - 06/2020</p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
                       <h4><strong>equensWorldline</strong></h4>
@@ -83,13 +87,14 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.PNG")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/atoswl.png")} />
                     <div className="timeline-header">
                       <h4><strong>Lead Developer</strong></h4>
                       <p>10/2018 - 09/2019</p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>equensWorldline</strong></h4>
+                      <h4><strong>Atos Worldline</strong></h4>
                       <p>
                       Design, development and operation of the Digital Banking product line for the implementation
                       of the PSD2 standard based on the BerlinGroup and OpenBanking standards, through the
@@ -102,13 +107,17 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.PNG")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/atoswl.png")} />
                     <div className="timeline-header">
                       <h4><strong>Software Engineer</strong></h4>
                       <p>03/2016 - 10/2018</p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>equensWorldline</strong></h4>
+                      <h4><strong>Atos Worldline</strong></h4>
+                      <p>
+                      <em>Hired at the end of my 6-month end-of-study internship.</em>  
+                      </p>
                       <p>
                       - Design, development and operation of underwriting applications of
                       dematerialized contracts for various banking and insurance customers, implementing the
@@ -126,13 +135,14 @@ function SectionExperience() {
                       Java, JEE, Spring (Cloud), Ember, REST, Maven, Node, TLS
                       </em></p>
                     </div>
-                  </div> 
+                  </div>
 
                   <div className="timeline-block">
                     <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.jpg")} />
                     <div className="timeline-header">
                       <h4><strong>Part-time teacher</strong></h4>
                       <p>10/2018 - 12/2018 & 10/2019 - 12/2019</p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
                       <h4><strong>Université Claude Bernard Lyon 1</strong></h4>
@@ -153,9 +163,10 @@ function SectionExperience() {
                     <div className="timeline-header">
                       <h4><strong>Internship</strong></h4>
                       <p>05/2015 - 08/2015</p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>LIRIS - CNRS (Research Laboratory in computer science)</strong></h4>
+                      <h4><strong>LIRIS</strong></h4>
                       <p>
                       Development of a graph storage engine for a distributed system.
                       Multi-segment partition loading, latices generation, compression and code optimization with
@@ -187,27 +198,53 @@ function SectionExperience() {
                   <div className="timeline-block">
                     <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.jpg")} />
                     <div className="timeline-header">
-                      <h4><strong>Master Degree</strong></h4>
+                      <h4><strong>Master's Degree</strong></h4>
                       <p>2014 - 2016</p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>Université Claude Bernard Lyon 1, France, Lyon</strong></h4>
+                      <h4><strong>Université Claude Bernard Lyon 1</strong></h4>
                       <p>
-                      Master of Information Technology and Web in Computer Science
+                      MSc. Information Technology and Web
+                      </p>
+                      <p>
+                      Graduated 09/2016
+                      </p>
+                    </div>
+                  </div>
+
+                  <div className="timeline-block">
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.jpg")} />
+                    <div className="timeline-header">
+                      <h4><strong>Bachelor's Degree</strong></h4>
+                      <p>2013 - 2014</p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
+                    </div>
+                    <div className="timeline-content">
+                      <h4><strong>Université Claude Bernard Lyon 1</strong></h4>
+                      <p>
+                      Bsc. Computer Science
+                      </p>
+                      <p>
+                      Graduated 07/2014
                       </p>
                     </div>
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.jpg")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/iut.jpg")} />
                     <div className="timeline-header">
-                      <h4><strong>Bachelor Degree</strong></h4>
+                      <h4><strong>Bachelor's Degree</strong></h4>
                       <p>2011 – 2013</p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Dijon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>IUT Informatique Dijon, France, Dijon</strong></h4>
+                      <h4><strong>IUT Informatique Dijon</strong></h4>
                       <p>
                       University of Computer Science                                                                         
+                      </p>
+                      <p>
+                      Graduated 07/2013
                       </p>
                     </div>
                   </div> 
