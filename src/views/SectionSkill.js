@@ -42,14 +42,16 @@ function SectionSkill() {
           </Col>
           {/* Backend */}
           <Card>
-            <CardHeader>Programmation</CardHeader>
+            <CardHeader
+            style={{ fontSize: '1.825em' }}
+            >Programmation</CardHeader>
             <CardBody>
             <Row>
               
             <Col md="6">
-                <div className="title">
-                  <h3>Backend</h3>
-                </div>
+              <h3
+              style={{ marginTop: '0' }}
+              >Backend</h3>
                 <Row style={{ marginTop: '5px' }}>
                   <Col className="text-center">
                     <img
@@ -122,9 +124,9 @@ function SectionSkill() {
               </Col>
               {/* Frontend */}
               <Col md="6">
-                <div className="title">
-                  <h3>Frontend</h3>
-                </div>
+                <h3
+                style={{ marginTop: '0' }}
+                >Frontend</h3>
 
                 <Row style={{ marginTop: '5px' }}>
                   <Col className="text-center">
@@ -202,14 +204,16 @@ function SectionSkill() {
           </Card>
 
           <Card>
-            <CardHeader>Architecture</CardHeader>
+            <CardHeader
+            style={{ fontSize: '1.825em' }}
+            >Architecture</CardHeader>
             <CardBody>
               <Row>
               {/* Web service */}
               <Col md="6">
-                  <div className="title">
-                    <h3>Web service</h3>
-                  </div>
+              <h3
+              style={{ marginTop: '0' }}
+              >Web service</h3>
 
                 <Row style={{ marginTop: '5px' }}>
                   <Col className="text-center">
@@ -246,7 +250,7 @@ function SectionSkill() {
                   <Col xs={10}>
                   <Row xs={4}>
                     <Col>SOAP</Col>
-                    <Col className="text-center">1 years</Col>
+                    <Col className="text-center">1 year</Col>
                     <Col className="text-right">100%</Col>
                   </Row>
                   <Progress
@@ -307,9 +311,9 @@ function SectionSkill() {
                 </Col>
                 {/* Deployment */}
                 <Col md="6">
-                  <div className="title">
-                    <h3>Deployment</h3>
-                  </div>
+                <h3
+                style={{ marginTop: '0' }}
+                >Deployment</h3>
 
                   <Row style={{ marginTop: '5px' }}>
                 <Col className="text-center">
@@ -410,14 +414,16 @@ function SectionSkill() {
           </Card>
           
           <Card>
-            <CardHeader>Data</CardHeader>
+            <CardHeader
+            style={{ fontSize: '1.825em' }}
+            >Data</CardHeader>
             <CardBody>
               <Row>
               {/* Data Storing */}
               <Col md="6">
-                <div className="title">
-                  <h3>Data Storing</h3>
-                </div>
+              <h3
+              style={{ marginTop: '0' }}
+              >Data Storing</h3>
 
               <Row style={{ marginTop: '5px' }}>
                 <Col className="text-center">
@@ -469,9 +475,9 @@ function SectionSkill() {
               </Col>
               {/* Big Data */}
               <Col md="6">
-                <div className="title">
-                  <h3>Big Data</h3>
-                </div>
+              <h3
+              style={{ marginTop: '0' }}
+              >Big Data</h3>
 
               <Row style={{ marginTop: '5px' }}>
                 <Col className="text-center">
@@ -528,7 +534,9 @@ function SectionSkill() {
           
           {/* Language */}
           <Card>
-            <CardHeader>Language</CardHeader>
+            <CardHeader
+            style={{ fontSize: '1.825em' }}
+            >Language</CardHeader>
             <CardBody>
               <Row>
               <Col md="6">
