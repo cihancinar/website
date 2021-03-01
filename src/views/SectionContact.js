@@ -42,7 +42,7 @@ function SectionContact() {
           </div>
             <CardDeck className="text-center">
                 <Card>
-                  <a href="tel:+3343279640">
+                  <a href="tel:+33643279640">
                     <CardBody>
                       <CardTitle 
                         tag="h5"
