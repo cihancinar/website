@@ -30,6 +30,7 @@ import SectionContact from "views/SectionContact.js";
 import SectionExperience from "views/SectionExperience.js";
 import SectionSkill from "views/SectionSkill.js";
 
+import CookieConsent from "react-cookie-consent";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -50,6 +51,16 @@ function Index() {
         <SectionContact />
         <IndexFooter />
       </div>
+      <CookieConsent
+        location="bottom"
+        buttonText="I understand"
+        cookieName="CookieConsent"
+        style={{ background: "#1e272e" }}
+        buttonStyle={{ background: "#f5593d", color: "white", fontSize: "13px" }}
+        expires={365}
+      >
+        This website uses cookies to enhance the user experience.
+      </CookieConsent>
     </>
   );
 }
