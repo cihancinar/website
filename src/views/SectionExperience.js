@@ -54,12 +54,18 @@ function SectionExperience() {
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>equensWorldline</strong></h4>
+                      <h4><strong>OpenBanking - equensWorldline</strong></h4>
                       <p>
-                      Design and development of a generic consent, authorization and authentication solution using the OPENID connect protocol through Keycloak and Apigee.
+                      Design and development of a generic consent, authorization and authentication solution using
+                      the OPENID connect protocol through RH SSO and Apigee. I build the architecture of the
+                      identity provider platform for the largest English bank.
+                      I am working with our TPP Reach solutions to design and respond to pre-sales, and I’m
+                      studying the implementation of a solution like Google login for banks.
+                      I am working on the design of a green banking solution with the implementation of carbon
+                      footprint calculation for banking transactions.
                       </p>
                       <p style={{ marginTop:"10px" }}><em>
-                      Keycloak, Apigee, Java 11, SpringBoot (Security, MVC, Data, WebFlux), Maven, Angular 9, Openshift, Helm, Gitlab-ci, Docker, Jira
+                      Keycloak, Apigee, Drupal, Java 11, SpringBoot (Security, MVC, Data, WebFlux), Maven, Angular 9, Openshift, Helm, Gitlab-ci, Docker, Jira
                       </em></p>
                     </div>
                   </div> 
@@ -72,7 +78,7 @@ function SectionExperience() {
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>equensWorldline</strong></h4>
+                      <h4><strong>Chatbot - equensWorldline</strong></h4>
                       <p>
                       Design and development of a chatbot solution using channels such as Alexa, Google Home,
                       Messenger, Rest API, WebSocket, using for intention recognition our RASA-based NLP
@@ -94,14 +100,15 @@ function SectionExperience() {
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>Atos Worldline</strong></h4>
+                      <h4><strong>PSD2 - Atos Worldline</strong></h4>
                       <p>
                       Design, development and operation of the Digital Banking product line for the implementation
                       of the PSD2 standard based on the BerlinGroup and OpenBanking standards, through the
-                      Apigee API manager.
+                      Apigee API manager. I carried out the performance tests as well as the patches. I set up the
+                      whole DevOps part. And I lead technically a team of 10 developers.
                       </p>
                       <p style={{ marginTop:"10px" }}><em>
-                      Java, SpringBoot (Cloud, Security, Data, MVC), Docker, Ember, Maven, Node, TLS
+                      Java, SpringBoot (Cloud, Security, Data, MVC), Docker, Ember, Drupal, Maven, Node, TLS
                       </em></p>
                     </div>
                   </div> 
@@ -114,7 +121,7 @@ function SectionExperience() {
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>Atos Worldline</strong></h4>
+                      <h4><strong>Digital Signature - Atos Worldline</strong></h4>
                       <p>
                       <em>Hired at the end of my 6-month end-of-study internship.</em>  
                       </p>
