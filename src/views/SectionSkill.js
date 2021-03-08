@@ -57,7 +57,7 @@ function SectionSkill() {
                     <img
                     alt="Spring"
                     className="img-rounded img-responsive"
-                    src={require("assets/img/spring.png")}
+                    src={require("assets/img/spring.webp")}
                     style={{ marginTop: '5px' }}
                     />
                   </Col>
@@ -80,7 +80,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/nodejs.png")}
+                  src={require("assets/img/nodejs.webp")}
                   style={{ marginTop: '5px' }}
                   />
                 </Col>
@@ -103,7 +103,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/quarkus.png")}
+                  src={require("assets/img/quarkus.webp")}
                   style={{ marginTop: '5px' }}
                   />
                 </Col>
@@ -133,7 +133,7 @@ function SectionSkill() {
                     <img
                     alt="Spring"
                     className="img-rounded img-responsive"
-                    src={require("assets/img/angular.png")}
+                    src={require("assets/img/angular.webp")}
                     style={{ width: '29px', marginTop: '5px' }}
                     />
                   </Col>
@@ -156,7 +156,7 @@ function SectionSkill() {
                     <img
                     alt="Spring"
                     className="img-rounded img-responsive"
-                    src={require("assets/img/react.png")}
+                    src={require("assets/img/react.webp")}
                     style={{ width: '51px', marginTop: '5px' }}
                     />
                   </Col>
@@ -179,7 +179,7 @@ function SectionSkill() {
                     <img
                     alt="Spring"
                     className="img-rounded img-responsive"
-                    src={require("assets/img/ember.png")}
+                    src={require("assets/img/ember.webp")}
                     style={{ marginTop: '5px' }}
                     />
                   </Col>
@@ -220,7 +220,7 @@ function SectionSkill() {
                     <img
                     alt="Spring"
                     className="img-rounded img-responsive"
-                    src={require("assets/img/rest.png")}
+                    src={require("assets/img/rest.webp")}
                     style={{ marginTop: '5px' }}
                     />
                   </Col>
@@ -243,7 +243,7 @@ function SectionSkill() {
                     <img
                     alt="Spring"
                     className="img-rounded img-responsive"
-                    src={require("assets/img/soap.jpeg")}
+                    src={require("assets/img/soap.webp")}
                     style={{ marginTop: '5px', maxHeight: '25px' }}
                     />
                   </Col>
@@ -266,7 +266,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/microservices.png")}
+                  src={require("assets/img/microservices.webp")}
                   style={{ marginTop: '5px', maxHeight: '30px' }}
                   />
                 </Col>
@@ -289,7 +289,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/apigee.png")}
+                  src={require("assets/img/apigee.webp")}
                   style={{ marginTop: '5px' }}
                   />
                 </Col>
@@ -320,7 +320,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/docker.png")}
+                  src={require("assets/img/docker.webp")}
                   style={{ marginTop: '5px' }}
                   />
                 </Col>
@@ -366,7 +366,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/gitlab.jpg")}
+                  src={require("assets/img/gitlab.webp")}
                   style={{ marginTop: '5px' }}
                   />
                 </Col>
@@ -430,7 +430,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/mysql.png")}
+                  src={require("assets/img/mysql.webp")}
                   style={{ marginTop: '5px', maxHeight: '25px' }}
                   />
                 </Col>
@@ -453,7 +453,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/mongodb.png")}
+                  src={require("assets/img/mongodb.webp")}
                   style={{ marginTop: '5px' }}
                   />
                 </Col>
@@ -507,7 +507,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/kafka.png")}
+                  src={require("assets/img/kafka.webp")}
                   style={{ marginTop: '5px' }}
                   />
                 </Col>
@@ -546,7 +546,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/france.png")}
+                  src={require("assets/img/france.webp")}
                   style={{ marginTop: '5px' }}
                   />
                 </Col>
@@ -568,7 +568,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/turkey.png")}
+                  src={require("assets/img/turkey.webp")}
                   style={{ marginTop: '5px' }}
                   />
                 </Col>
@@ -590,7 +590,7 @@ function SectionSkill() {
                   <img
                   alt="Spring"
                   className="img-rounded img-responsive"
-                  src={require("assets/img/uk.png")}
+                  src={require("assets/img/uk.webp")}
                   style={{ marginTop: '5px' }}
                   />
                 </Col>

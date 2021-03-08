@@ -47,7 +47,7 @@ function SectionExperience() {
                 <div className="timeline-wrap">
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.PNG")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Senior Software Engineer</strong></h4>
                       <p>06/2020 - <u>Present</u></p>
@@ -65,7 +65,7 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.PNG")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Senior Software Engineer / Technical Lead</strong></h4>
                       <p>09/2019 - 06/2020</p>
@@ -87,7 +87,7 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/atoswl.png")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/atoswl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Lead Developer</strong></h4>
                       <p>10/2018 - 09/2019</p>
@@ -107,7 +107,7 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/atoswl.png")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/atoswl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Software Engineer</strong></h4>
                       <p>03/2016 - 10/2018</p>
@@ -138,7 +138,7 @@ function SectionExperience() {
                   </div>
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.jpg")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Part-time teacher</strong></h4>
                       <p>10/2018 - 12/2018 & 10/2019 - 12/2019</p>
@@ -159,7 +159,7 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/liris.jpg")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/liris.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Internship</strong></h4>
                       <p>05/2015 - 08/2015</p>
@@ -196,7 +196,7 @@ function SectionExperience() {
                 <div className="timeline-wrap">
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.jpg")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Master's Degree</strong></h4>
                       <p>2014 - 2016</p>
@@ -214,7 +214,7 @@ function SectionExperience() {
                   </div>
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.jpg")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Bachelor's Degree</strong></h4>
                       <p>2013 - 2014</p>
@@ -232,7 +232,7 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/iut.jpg")} />
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/iut.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Bachelor's Degree</strong></h4>
                       <p>2011 – 2013</p>

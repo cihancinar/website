@@ -94,7 +94,7 @@ function SectionContact() {
                     <img
                       alt="vcard"
                       height="143px"
-                      src={require("assets/img/vcard.png")}
+                      src={require("assets/img/vcard.webp")}
                       style={{ height:'143px', marginTop: '5px' }}
                     />
                   </div>

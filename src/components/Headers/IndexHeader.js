@@ -25,7 +25,7 @@ import { Container } from "reactstrap";
 // core components
 
 function IndexHeader() {
-  const randBackgroundImage = "top" + Math.round(Math.random()) + ".jpg";
+  const randBackgroundImage = "top" + Math.round(Math.random()) + ".webp";
   return (
     <>
       <div
@@ -43,10 +43,10 @@ function IndexHeader() {
               <h1>Hello, world!</h1>
               <h1 className="presentation-title">I'm Cihan Cinar</h1>
               <div className="fog-low">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
+                <img alt="..." src={require("assets/img/fog-low.webp")} />
               </div>
               <div className="fog-low right">
-                <img alt="..." src={require("assets/img/fog-low.png")} />
+                <img alt="..." src={require("assets/img/fog-low.webp")} />
               </div>
             </div>
             <h2 className="presentation-subtitle text-center font-weight-bold">
@@ -57,7 +57,7 @@ function IndexHeader() {
         <div
           className="moving-clouds"
           style={{
-            backgroundImage: "url(" + require("assets/img/clouds.png") + ")",
+            backgroundImage: "url(" + require("assets/img/clouds.webp") + ")",
           }}
         />
       </div>
