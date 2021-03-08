@@ -40,10 +40,10 @@ function SectionAbout() {
                 <h6 style={{ marginTop: '5px' }}><GeoAlt color="black" size={20} /> Lyon, France</h6>
               </div>
               <p className="text-justify description text-dark" style={{ marginBottom: '15px' }}>
-                I am a Full Stack Software Engineer, with 5 years of experience and always eager to learn something new. 
+                I am a Full Stack Senior Software Development Engineer, with 5 years of experience and always eager to learn something new. 
               </p>
               <p className="text-justify description text-dark" style={{ marginBottom: '15px' }}>
-                I am currently employed at Worldline, where I am working in agile methodology on various projects, with high expectations and tight deadlines.
+                I am currently employed at Atos Worldline, where I am working in agile methodology on various projects, with high expectations and tight deadlines.
                 Specialized in Java, I am actively working on software design, architecture and IaaS, CaaS deployment. However I am adaptable and  I enjoy learning new technologies.
               </p>
               <p className="text-justify description text-dark">

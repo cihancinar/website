@@ -50,7 +50,7 @@ function IndexHeader() {
               </div>
             </div>
             <h2 className="presentation-subtitle text-center font-weight-bold">
-              | Senior Software Engineer |
+              | Senior Software Development Engineer |
             </h2>
           </Container>
         </div>

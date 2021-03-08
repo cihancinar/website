@@ -49,7 +49,7 @@ function SectionExperience() {
                   <div className="timeline-block">
                     <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.PNG")} />
                     <div className="timeline-header">
-                      <h4><strong>Architect</strong></h4>
+                      <h4><strong>Senior Software Engineer</strong></h4>
                       <p>06/2020 - <u>Present</u></p>
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
@@ -67,7 +67,7 @@ function SectionExperience() {
                   <div className="timeline-block">
                     <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.PNG")} />
                     <div className="timeline-header">
-                      <h4><strong>Architect / Technical Lead</strong></h4>
+                      <h4><strong>Senior Software Engineer / Technical Lead</strong></h4>
                       <p>09/2019 - 06/2020</p>
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
