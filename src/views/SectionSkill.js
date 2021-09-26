@@ -597,7 +597,7 @@ function SectionSkill() {
                 <Col xs={10}>
                 <Row xs={6}>
                   <Col>English</Col>
-                  <Col className="text-right">70%</Col>
+                  <Col className="text-right">80%</Col>
                 </Row>
                 <Progress
                   max="100"

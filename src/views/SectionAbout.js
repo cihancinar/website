@@ -18,7 +18,7 @@
 */
 import React from "react";
 
-import { GeoAlt } from 'react-bootstrap-icons';
+import { GeoAlt, Trophy } from 'react-bootstrap-icons';
 
 // reactstrap components
 import {
@@ -26,6 +26,7 @@ import {
   Row,
   Col,
 } from "reactstrap";
+import ExpertPdf from '../assets/pdf/Technical_Expert_Cihan_CINAR_Worldline.pdf';
 
 function SectionAbout() {
   return (
@@ -40,7 +41,18 @@ function SectionAbout() {
                 <h6 style={{ marginTop: '5px' }}><GeoAlt color="black" size={20} /> Lyon, France</h6>
               </div>
               <p className="text-justify description text-dark" style={{ marginBottom: '15px' }}>
-                I am a Full Stack Senior Software Development Engineer, with 5 years of experience and always eager to learn something new. 
+                I am a Full Stack Senior Software Development Engineer, with over 5 years of experience and always eager to learn something new.
+              </p>
+              <p className="text-justify description text-dark" style={{ marginBottom: '15px' }}>
+                I am also part of the Worldline expert community and am recognized as a technical expert.
+                <a
+                    href={ExpertPdf}
+                    without
+                    rel="noopener noreferrer"
+                    target="_blank"
+                >
+                  <Trophy color="black" size={15} /> Certification
+                </a>
               </p>
               <p className="text-justify description text-dark" style={{ marginBottom: '15px' }}>
                 I am currently employed at Atos Worldline on OpenBanking issues, where I am working in agile methodology on various projects, with high expectations and tight deadlines.

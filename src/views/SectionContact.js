@@ -20,7 +20,7 @@ import React from "react";
 
 import { CloudArrowDown, Envelope, Telephone } from 'react-bootstrap-icons';
 
-import Pdf from '../assets/pdf/Resume_Cihan-CINAR_Senior-SE.pdf';
+import ResumePdf from '../assets/pdf/Resume_Cihan-CINAR_Senior-SE.pdf';
 
 // reactstrap components
 import {
@@ -73,7 +73,7 @@ function SectionContact() {
                 </Card>
                 <Card>
                   <a 
-                    href={Pdf}
+                    href={ResumePdf}
                     without 
                     rel="noopener noreferrer"
                     target="_blank"
