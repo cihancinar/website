@@ -120,7 +120,7 @@ function SectionExperience() {
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>Chatbot - equensWorldline</strong></h4>
+                      <h4><strong>Chatbot (McDonald’s) - equensWorldline</strong></h4>
                       <p>
                       Design and development of a chatbot solution using channels such as Alexa, Google Home,
                       Messenger, Rest API, WebSocket, using for intention recognition our RASA-based NLP
@@ -142,7 +142,7 @@ function SectionExperience() {
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>PSD2 - Atos Worldline</strong></h4>
+                      <h4><strong>PSD2 (Commerzbank, Orange bank, .. 25 banks) - Atos Worldline</strong></h4>
                       <p>
                       Design, development and operation of the Digital Banking product line for the implementation
                       of the PSD2 standard based on the BerlinGroup and OpenBanking standards, through the
@@ -163,7 +163,7 @@ function SectionExperience() {
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
-                      <h4><strong>Digital Signature - Atos Worldline</strong></h4>
+                      <h4><strong>Digital Signature (AG2R La Mondiale) - Atos Worldline</strong></h4>
                       <p>
                       <em>Hired at the end of my 6-month end-of-study internship.</em>  
                       </p>

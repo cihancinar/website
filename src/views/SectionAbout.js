@@ -38,7 +38,7 @@ function SectionAbout() {
               <div className="title">
                 <h2>About me</h2>
                 <h3>Cihan Cinar</h3>
-                <h6 style={{ marginTop: '5px' }}><GeoAlt color="black" size={20} /> Lyon, France</h6>
+                <h6 style={{ marginTop: '5px' }}><GeoAlt color="black" size={20} /> Vetraz-Monthoux, France</h6>
               </div>
               <p className="text-justify description text-dark" style={{ marginBottom: '15px' }}>
                 I am a Full Stack Technical Expert, with over 7 years of experience and always eager to learn something new.
