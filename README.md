@@ -2,6 +2,6 @@
 
 ## Start
 
-> npm install
+> pnpm install
 >
-> npm run start
+> pnpm run start

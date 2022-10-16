@@ -20,7 +20,7 @@ import React from "react";
 
 import { CloudArrowDown, Envelope, Telephone } from 'react-bootstrap-icons';
 
-import ResumePdf from '../assets/pdf/Resume_Cihan-CINAR_Senior-SE.pdf';
+import ResumePdf from '../assets/pdf/CV_Cihan-CINAR.pdf';
 
 // reactstrap components
 import {

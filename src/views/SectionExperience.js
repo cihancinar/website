@@ -46,11 +46,53 @@ function SectionExperience() {
               <Col md="12">
                 <div className="timeline-wrap">
 
+                <div className="timeline-block">
+                    <img className="timeline-image" alt="givaudan" src={require("assets/img/givaudan.webp")} />
+                    <div className="timeline-header">
+                      <h4><strong>Technical Lead</strong></h4>
+                      <p>02/2022 - <u>Present</u></p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Geneva</div>
+                    </div>
+                    <div className="timeline-content">
+                      <h4><strong>Digital Innovation - Givaudan</strong></h4>
+                      <p>
+                      Design and development of Givaudan innovation solution based on fragrance and flavour. I
+                      lead the Tableau software overlay product which help internal business to use full capacity of
+                      Tableau through an Angular pre build app with advanced filter management and board builder.
+                      </p>
+                      <p style={{ marginTop:"10px" }}><em>
+                      Java 11, SpringBoot (Security, MVC, Data, WebFlux), Maven, Angular 13, Openshift, Gitlab-ci, Docker, Jira, Tableau
+                      </em></p>
+                    </div>
+                  </div> 
+
+                <div className="timeline-block">
+                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.webp")} />
+                    <div className="timeline-header">
+                      <h4><strong>Architect</strong></h4>
+                      <p>06/2020 - 01/2022</p>
+                      <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
+                    </div>
+                    <div className="timeline-content">
+                      <h4><strong>Identity Provider (NS&I) - equensWorldline</strong></h4>
+                      <p>
+                      Design and development of the NSI identification solution. Implementation of strong
+                      authentication based on OpenBanking solution for web and mobile channels. Helped NSI
+                      technical teams to interconnect their solutions with the new authentication solution. I carried
+                      out the performance tests as well as the patches. I set up the whole DevOps part. And I lead
+                      technically a team of 6 developers.
+                      </p>
+                      <p style={{ marginTop:"10px" }}><em>
+                      Keycloak, Apigee, Drupal, Java 11, SpringBoot (Security, MVC, Data, WebFlux), Maven, Angular 9, Openshift, Helm, Gitlab-ci, Docker, Jira
+                      </em></p>
+                    </div>
+                  </div> 
+
                   <div className="timeline-block">
                     <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.webp")} />
                     <div className="timeline-header">
-                      <h4><strong>Senior Software Engineer</strong></h4>
-                      <p>06/2020 - <u>Present</u></p>
+                      <h4><strong>Architect</strong></h4>
+                      <p>06/2020 - 03/2021</p>
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
                     <div className="timeline-content">
@@ -73,7 +115,7 @@ function SectionExperience() {
                   <div className="timeline-block">
                     <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ewl.webp")} />
                     <div className="timeline-header">
-                      <h4><strong>Senior Software Engineer</strong></h4>
+                      <h4><strong>Technical Lead</strong></h4>
                       <p>09/2019 - 06/2020</p>
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
@@ -93,9 +135,9 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/atoswl.webp")} />
+                    <img className="timeline-image" alt="atosWorldline" src={require("assets/img/atoswl.webp")} />
                     <div className="timeline-header">
-                      <h4><strong>Software Engineer</strong></h4>
+                      <h4><strong>Lead Developer</strong></h4>
                       <p>10/2018 - 09/2019</p>
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
@@ -114,7 +156,7 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/atoswl.webp")} />
+                    <img className="timeline-image" alt="atosWorldline" src={require("assets/img/atoswl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Software Engineer</strong></h4>
                       <p>03/2016 - 10/2018</p>
@@ -145,7 +187,7 @@ function SectionExperience() {
                   </div>
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.webp")} />
+                    <img className="timeline-image" alt="ucbl" src={require("assets/img/ucbl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Part-time teacher</strong></h4>
                       <p>10/2018 - 12/2018 & 10/2019 - 12/2019</p>
@@ -166,9 +208,9 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/liris.webp")} />
+                    <img className="timeline-image" alt="liris" src={require("assets/img/liris.webp")} />
                     <div className="timeline-header">
-                      <h4><strong>Internship</strong></h4>
+                      <h4><strong>Research And Development Internship</strong></h4>
                       <p>05/2015 - 08/2015</p>
                       <div className="timeline-header-location"><GeoAlt color="black" size={15} /> Lyon</div>
                     </div>
@@ -203,7 +245,7 @@ function SectionExperience() {
                 <div className="timeline-wrap">
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.webp")} />
+                    <img className="timeline-image" alt="ucbl" src={require("assets/img/ucbl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Master's Degree</strong></h4>
                       <p>2014 - 2016</p>
@@ -221,7 +263,7 @@ function SectionExperience() {
                   </div>
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/ucbl.webp")} />
+                    <img className="timeline-image" alt="ucbl" src={require("assets/img/ucbl.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Bachelor's Degree</strong></h4>
                       <p>2013 - 2014</p>
@@ -239,7 +281,7 @@ function SectionExperience() {
                   </div> 
 
                   <div className="timeline-block">
-                    <img className="timeline-image" alt="equensWorldline" src={require("assets/img/iut.webp")} />
+                    <img className="timeline-image" alt="iut" src={require("assets/img/iut.webp")} />
                     <div className="timeline-header">
                       <h4><strong>Bachelor's Degree</strong></h4>
                       <p>2011 – 2013</p>

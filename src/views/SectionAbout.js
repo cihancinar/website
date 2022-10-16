@@ -41,10 +41,10 @@ function SectionAbout() {
                 <h6 style={{ marginTop: '5px' }}><GeoAlt color="black" size={20} /> Lyon, France</h6>
               </div>
               <p className="text-justify description text-dark" style={{ marginBottom: '15px' }}>
-                I am a Full Stack Senior Software Development Engineer, with over 5 years of experience and always eager to learn something new.
+                I am a Full Stack Technical Expert, with over 7 years of experience and always eager to learn something new.
               </p>
               <p className="text-justify description text-dark" style={{ marginBottom: '15px' }}>
-                I am also part of the Worldline expert community and am recognized as a technical expert.
+                I am currently employed at SQLI Suisse as a Technical Expert, where I am working in agile methodology on various projects, with high expectations and tight deadlines. Specialized in Java, I am actively working on software design, architecture and IaaS, CaaS deployment. However I am adaptable and I enjoy learning new technologies.
                 <a
                     href={ExpertPdf}
                     without
@@ -54,15 +54,11 @@ function SectionAbout() {
                   <Trophy color="black" size={15} /> Certification
                 </a>
               </p>
-              <p className="text-justify description text-dark" style={{ marginBottom: '15px' }}>
-                I am currently employed at Atos Worldline on OpenBanking issues, where I am working in agile methodology on various projects, with high expectations and tight deadlines.
-                Specialized in Java, I am actively working on software design, architecture and IaaS, CaaS deployment. However I am adaptable and  I enjoy learning new technologies.
-              </p>
               <p className="text-justify description text-dark">
                 Pedagogue and passionate about my work, I participate in university or in-house technical trainings. I actively follow
                 web conferences such as Devoxx to keep me informed of the latest technologies and trends and I try to
                 implement new approaches that I think are promising. 
-                The technical challenge is at the heart of my activity and as I enjoy taking initiatives I have been participating for one year at Labs as a day a week for R&D.
+                The technical challenge is at the heart of my activity and as I enjoy taking initiatives I participated for few years at Labs as a day a week for R&D.
               </p>
             </Col>
           </Row>
